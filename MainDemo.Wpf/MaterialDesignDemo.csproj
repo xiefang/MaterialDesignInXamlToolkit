@@ -73,20 +73,20 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Buttons.xaml.cs">
+    <Compile Include="Views\Buttons.xaml.cs">
       <DependentUpon>Buttons.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ButtonsViewModel.cs" />
-    <Compile Include="Cards.xaml.cs">
+    <Compile Include="Views\ButtonsViewModel.cs" />
+    <Compile Include="Views\Cards.xaml.cs">
       <DependentUpon>Cards.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Chips.xaml.cs">
+    <Compile Include="Views\Chips.xaml.cs">
       <DependentUpon>Chips.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ColorZones.xaml.cs">
+    <Compile Include="Views\ColorZones.xaml.cs">
       <DependentUpon>ColorZones.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Dialogs.xaml.cs">
+    <Compile Include="Views\Dialogs.xaml.cs">
       <DependentUpon>Dialogs.xaml</DependentUpon>
     </Compile>
     <Compile Include="Domain\AnotherCommandImplementation.cs" />
@@ -121,59 +121,59 @@
     <Compile Include="Domain\SimpleDateValidationRule.cs" />
     <Compile Include="Domain\TextFieldsViewModel.cs" />
     <Compile Include="Domain\TreesViewModel.cs" />
-    <Compile Include="Drawers.xaml.cs">
+    <Compile Include="Views\Drawers.xaml.cs">
       <DependentUpon>Drawers.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Expander.xaml.cs">
+    <Compile Include="Views\Expander.xaml.cs">
       <DependentUpon>Expander.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Grids.xaml.cs">
+    <Compile Include="Views\Grids.xaml.cs">
       <DependentUpon>Grids.xaml</DependentUpon>
     </Compile>
-    <Compile Include="GroupBoxes.xaml.cs">
+    <Compile Include="Views\GroupBoxes.xaml.cs">
       <DependentUpon>GroupBoxes.xaml</DependentUpon>
     </Compile>
     <Compile Include="Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
-    <Compile Include="IconPack.xaml.cs">
+    <Compile Include="Views\IconPack.xaml.cs">
       <DependentUpon>IconPack.xaml</DependentUpon>
     </Compile>
-    <Compile Include="IconPackViewModel.cs" />
-    <Compile Include="Lists.xaml.cs">
+    <Compile Include="Views\IconPackViewModel.cs" />
+    <Compile Include="Views\Lists.xaml.cs">
       <DependentUpon>Lists.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MenusAndToolBars.xaml.cs">
+    <Compile Include="Views\MenusAndToolBars.xaml.cs">
       <DependentUpon>MenusAndToolBars.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PaletteSelector.xaml.cs">
+    <Compile Include="Views\PaletteSelector.xaml.cs">
       <DependentUpon>PaletteSelector.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PaletteSelectorViewModel.cs" />
-    <Compile Include="Pickers.xaml.cs">
+    <Compile Include="Views\PaletteSelectorViewModel.cs" />
+    <Compile Include="Views\Pickers.xaml.cs">
       <DependentUpon>Pickers.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PickersViewModel.cs" />
-    <Compile Include="Progress.xaml.cs">
+    <Compile Include="Views\PickersViewModel.cs" />
+    <Compile Include="Views\Progress.xaml.cs">
       <DependentUpon>Progress.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ProvingGround.xaml.cs">
+    <Compile Include="Views\ProvingGround.xaml.cs">
       <DependentUpon>ProvingGround.xaml</DependentUpon>
     </Compile>
     <Compile Include="ProvingGroundStuff\MeasuringTextBox.cs" />
-    <Compile Include="Shadows.xaml.cs">
+    <Compile Include="Views\Shadows.xaml.cs">
       <DependentUpon>Shadows.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Sliders.xaml.cs">
+    <Compile Include="Views\Sliders.xaml.cs">
       <DependentUpon>Sliders.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Snackbars.xaml.cs">
+    <Compile Include="Views\Snackbars.xaml.cs">
       <DependentUpon>Snackbars.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TextFields.xaml.cs">
+    <Compile Include="Views\TextFields.xaml.cs">
       <DependentUpon>TextFields.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Transitions.xaml.cs">
+    <Compile Include="Views\Transitions.xaml.cs">
       <DependentUpon>Transitions.xaml</DependentUpon>
     </Compile>
     <Compile Include="TransitionsDemo\Slide1_Intro.xaml.cs">
@@ -204,25 +204,25 @@
     <Compile Include="TransitionsDemo\TransitionsDemoHome.xaml.cs">
       <DependentUpon>TransitionsDemoHome.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Trees.xaml.cs">
+    <Compile Include="Views\Trees.xaml.cs">
       <DependentUpon>Trees.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Typography.xaml.cs">
+    <Compile Include="Views\Typography.xaml.cs">
       <DependentUpon>Typography.xaml</DependentUpon>
     </Compile>
-    <Page Include="Buttons.xaml">
+    <Page Include="Views\Buttons.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Cards.xaml">
+    <Page Include="Views\Cards.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Chips.xaml">
+    <Page Include="Views\Chips.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ColorZones.xaml">
+    <Page Include="Views\ColorZones.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -234,15 +234,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Drawers.xaml">
+    <Page Include="Views\Drawers.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Expander.xaml">
+    <Page Include="Views\Expander.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Dialogs.xaml">
+    <Page Include="Views\Dialogs.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -258,11 +258,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Grids.xaml">
+    <Page Include="Views\Grids.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="GroupBoxes.xaml">
+    <Page Include="Views\GroupBoxes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -270,11 +270,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="IconPack.xaml">
+    <Page Include="Views\IconPack.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Lists.xaml">
+    <Page Include="Views\Lists.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -290,47 +290,47 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="MenusAndToolBars.xaml">
+    <Page Include="Views\MenusAndToolBars.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Palette.xaml">
+    <Page Include="Views\Palette.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PaletteSelector.xaml">
+    <Page Include="Views\PaletteSelector.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pickers.xaml">
+    <Page Include="Views\Pickers.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Progress.xaml">
+    <Page Include="Views\Progress.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ProvingGround.xaml">
+    <Page Include="Views\ProvingGround.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Shadows.xaml">
+    <Page Include="Views\Shadows.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Sliders.xaml">
+    <Page Include="Views\Sliders.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Snackbars.xaml">
+    <Page Include="Views\Snackbars.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TextFields.xaml">
+    <Page Include="Views\TextFields.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Transitions.xaml">
+    <Page Include="Views\Transitions.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -370,17 +370,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Trees.xaml">
+    <Page Include="Views\Trees.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Typography.xaml">
+    <Page Include="Views\Typography.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Palette.xaml.cs">
+    <Compile Include="Views\Palette.xaml.cs">
       <DependentUpon>Palette.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
